@@ -1,0 +1,38 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: blueviolet;
+}
+
+.container{
+    text-align: center;
+}
+
+.result{
+    font-size:3rem;
+    font-weight: 400;
+    color:black;
+    background: white;
+    padding: 30px 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.result span{
+    width: 3rem;
+}
+
+.button button{
+    margin: 5rem;
+    border: none;
+    outline:auto;
+    height: 73px;
+    width: 200px;
+    color:black;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 3px;
+    cursor:pointer;
+}
